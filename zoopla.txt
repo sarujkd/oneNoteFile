@@ -1,0 +1,14 @@
+preferances=//button[text()='Save my preferences']
+
+search london=//input[@id='search-input-location']
+
+search=//button[text()='Search']
+
+most recent=//select[@name='results_sort']
+
+List in descending order=//a[@class='listing-results-price text-price']
+
+agentname=(//h4[@class='ui-agent__name'])[1] or //div[@class='ui-agent__text']//h4[@class='ui-agent__name'][1]
+//*[@id="dp-sticky-element"]/div/div[1]/a/div[2]/h4
+
+lastpage agentname=//h1[@class='bottom-half']//b[1] or //*[@id="content"]/div/h1
